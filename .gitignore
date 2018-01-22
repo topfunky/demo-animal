@@ -1,0 +1,17 @@
+### Dist ###
+
+### Vagrant ###
+.vagrant/
+*.box
+
+### Packer ###
+packer_cache/
+packer/variables.json
+
+### Terraform ###
+*.tfstate
+*.tfstate.backup
+
+google/account.json
+terraform.tfvars
+.terraform/
